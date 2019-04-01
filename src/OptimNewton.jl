@@ -1,5 +1,7 @@
 module OptimNewton
 
+export optimize_newton
+
 function optimize_newton(x, f, g, h;
                          grtol=1e-4,
                          gatol=1e-4,

@@ -1,6 +1,6 @@
 using OptimNewton
 using Test
 
-@testset "OptimNewton.jl" begin
-    # Write your own tests here.
+@testset "newton" begin
+   include("newton.jl")
 end
